@@ -7,12 +7,13 @@ var root = new Vue (
     {
         el: '#root',
         data: {
-            message: 'Vuoi sapere come è stato il mio primo incontro con JavaScript? premi il bottone',
-            image: './asset/img/GettyImages-1388085444 Media.png'
+            message: 'Vuoi sapere come è stato il mio primo incontro con JavaScript? Premi il bottone',
+            image: './asset/img/GettyImages-1388085444 Media.png',
+            classi: ['d-none']
         },
-        method: {
+        methods: {
             show: function() {
-                
+                return this.classi = 'd-block';
             }
         }
     }

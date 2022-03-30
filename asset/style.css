@@ -10,6 +10,24 @@ img {
 
 h1 {
   text-align: center;
+  padding: 20px;
+}
+
+.btn-box {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.btn {
+  background-color: cadetblue;
+  padding: 10px 30px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: rgb(68, 109, 111);
+  cursor: pointer;
 }
 
 .container {
@@ -20,4 +38,12 @@ h1 {
 .img-box {
   margin: 20px auto;
   width: 60%;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
 }
